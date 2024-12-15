@@ -15,15 +15,45 @@
         <h1 style="text-align: center; color: blue;">Elenekh</h1>
         <h2 style="text-align: center; color:blue">About me</h2>
 
+        <!-- The 'id' attribute uniquely identifies this div as 'header' for CSS or JavaScript targeting -->
         <div id="About me">
             <p id="main-introduction">My name is Elene. I am 18 years old and a first-year Computer Engineering student at Ilia State University</p>
             <p>I want to share about my favourite website to listen to music, which is Spotify</p>
+            <!-- The 'title' attribute provides a tooltip when the user hovers over the link -->
             <a href="https://open.spotify.com/"title="favourite-website" id="music_listening_website_link" target="_blank">This is link for Spotify</a>
         </div>
         <div id="facts">
             <h3 style="text-align: center; color: blue;">facts about me:</h3>
             <p><b><i>I love to <mark>dance</mark></i></b></p>
-            <p><ins><b>I love my uni<sup>The best decision I have ever made</sup></b></ins></p>
+            <p><ins><b>I love my uni<sup><span style="color:rgb(0, 225, 255)">The best UNI ever</span></sup></b></ins></p>
+        </div>
+        <div id="lists">
+                    <!-- Lists section -->
+        <div id="lists">
+            <!-- Unordered list with styled items -->
+             <p>My hobbies</p>
+            <ul>
+                <li style="color:rgb(255, 0, 0);"><b>Dancing</b></li>
+                <li style="color:yellow;">Reading</li>
+                <li style="color:purple;">Painting</li>
+            </ul>
+
+            <!-- Ordered list with nested unordered sublist -->
+            <p>My goals</p>
+            <ol>
+                <li>Become an engineer</li>
+                <li>Win in a Hackathon</li>
+                <li>Grow the Psychology school I am working at</li>
+            </ol>
+
+            <!-- Description list with definitions -->
+            <dl>
+                <dt style="background-color: cornflowerblue;">1st biggest accomplishment of this year:</dt>
+                <dd>Winning in the inner University competition, having the opportunity to represent my University</dd>
+
+                <dt style="background-color: cornflowerblue;">2nd biggest accomplishment of this year</dt>
+                <dd>Being able to participate in a STEM summer camp</dd>
+            </dl>
         </div>
     </body>
 </html>
