@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>Tables</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="participants-table">
+            <table class="first-table">
+                <caption class="table-caption">List of Participants</caption>
+                    <thead>
+                            <tr class="theading-row">
+                                <th scope="col">Name</th>
+                                <th scope="col">Age</th>
+                                <th scope="col">Email</th>
+                            </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="table-row">
+                            <td>Elene</td>
+                            <td>18</td>
+                            <td>Elene.kharatishvili.1@iliauni.edu.ge</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Nuca</td>
+                            <td>18</td>
+                            <td>Nuca.Aduashvili.1@iliauni.edu.ge</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Ana</td>
+                            <td>21</td>
+                            <td>Ana.mawavariani@gmail.com</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Mariami</td>
+                            <td>18</td>
+                            <td>Mariami.meifariani@gmail.com</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Tia</td>
+                            <td>25</td>
+                            <td>tia.gotiashvili@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="schedule-table"  role="region" aria-labelledby="schedule-title">
+                <table class="second-table" role="table">
+                    <caption id="schedule-title" class="table-caption">Weekly Activity Schedule</caption>
+                        <thead>
+                                <tr class="schd-heading-row">
+                                    <th scope="col"></th>
+                                    <th scope="col">Monday</th>
+                                    <th scope="col">Tuesday</th>
+                                    <th scope="col">Wednesday</th>
+                                    <th scope="col">Thursday</th>
+                                    <th scope="col">Friday</th>
+                                    <th scope="col">Saturday</th>
+                                    <th scope="col">Sunday</th>
+                                </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr class="schd-table-row">
+                                <td class="time-of-day">Morning</td>
+                                <td colspan="3">Yoga Class</td> 
+                                <td colspan="2">Study Session</td>
+                                <td rowspan="2" colspan="2">Relaxation Time</td>
+                            </tr>
+                            <tr class="schd-table-row">
+                                <td class="time-of-day">Afternoon</td>
+                                <td colspan="2">Team Meeting</td>
+                                <td colspan="3">Coding Workshop</td>
+                            </tr>
+                            <tr class="schd-table-row">
+                                <td class="time-of-day">Evening</td>
+                                <td colspan="4">Relaxation Time</td>
+                                <td colspan="3">Dance lessons</td>
+                        </tbody>
+                    </table>
+                </div>
+
+            <div class="shopping-cart-table" role="region" aria-labelledby="cart-title">
+                <table class="third-table">
+                    <caption id="cart-title" class="table-caption">Shopping cart</caption>
+                        <thead>
+                            <tr class="shopping-heading-row">
+                                <th scope="col" id="item">Name</th>
+                                <th scope="col" id="quantity">Quantity</th>
+                                <th scope="col" id="price">Price per Item</th>
+                                <th scope="col" id="total-price">Total Price</th>
+                                <th scope="col" id="details">Details</th>
+                    </thead>
+
+                    <tbody>
+                        <tr class="shopping-table-row">
+                            <td headers="item">Apple</td>
+                            <td headers="quantity">3</td> 
+                            <td headers="price">$1.00</td>
+                            <td headers="total-price">$3.00</td>
+                            <td headers="details">
+                                <table style="border-collapse: collapse; width: 100%; background-color: rgb(135, 80, 223); border-radius: 0;">
+                                    <thead>
+                                        <tr>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color:rgb(82, 37, 172); font-weight: bold;">Specification</th>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color: rgb(82, 37, 172); font-weight: bold;">Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Weight</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">1 lb</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Brand</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Fresh Farm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="shopping-table-row">
+                            <td headers="item">Orange</td>
+                            <td headers="quantity">4</td> 
+                            <td headers="price">$0.50</td>
+                            <td headers="total-price">$2.00</td>
+                            <td headers="details">
+                                <table style="border-collapse: collapse; width: 100%; background-color: rgb(135, 80, 223); border-radius: 0;">
+                                    <thead>
+                                        <tr>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color:rgb(82, 37, 172); font-weight: bold;">Specification</th>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color: rgb(82, 37, 172); font-weight: bold;">Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Weight</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">1 lb</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Brand</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Fresh Farm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="shopping-table-row">
+                            <td headers="item">Banana</td>
+                            <td headers="quantity">5</td> 
+                            <td headers="price">$1.20</td>
+                            <td headers="total-price">$6.00</td>
+                            <td headers="details">
+                                <table style="border-collapse: collapse; width: 100%; background-color: rgb(135, 80, 223); border-radius: 0;">
+                                    <thead>
+                                        <tr>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color:rgb(82, 37, 172); font-weight: bold;">Specification</th>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color: rgb(82, 37, 172); font-weight: bold;">Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Weight</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">1 lb</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Brand</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Fresh Farm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="shopping-table-row">
+                            <td headers="item">Grapes</td>
+                            <td headers="quantity">1</td> 
+                            <td headers="price">$3.00</td>
+                            <td headers="total-price">$3.00</td>
+                            <td headers="details">
+                                <table style="border-collapse: collapse; width: 100%; background-color: rgb(135, 80, 223); border-radius: 0;">
+                                    <thead>
+                                        <tr>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color:rgb(82, 37, 172); font-weight: bold;">Specification</th>
+                                            <th style="border: 1px solid  rgb(106, 18, 194);; padding: 5px; background-color: rgb(82, 37, 172); font-weight: bold;">Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Weight</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">1 lb</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Brand</td>
+                                            <td style="border: 1px solid  rgb(106, 18, 194);; padding: 5px;">Fresh Farm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="shopping-table-row">
+                            <td colspan="3">Total Price</td>
+                            <td>$14.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="calendar">
+                <table class="fourth-table">
+                    <caption class="table-caption">January 2025</caption>
+                    <thead>
+                        <tr class="calendar-heading-row">
+                            <th scope="col">Monday</th>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">Friday</th>
+                            <th scope="col">Saturday</th>
+                            <th scope="col">Sunday</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr class="calendar-row">
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="calendar-row">
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr class="calendar-row">
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+                    <tr class="calendar-row">
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                    </tr>
+                    <tr class="calendar-row">
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                     </tbody>
+                </table>
+            </div>
+    </body>
+</html>
